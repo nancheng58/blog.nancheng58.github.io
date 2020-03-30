@@ -6,7 +6,7 @@
 <h3 id="组成："><a href="#组成：" class="headerlink" title="组成："></a><strong>组成</strong>：</h3><p>一个指向数据的指针。<br>数据类型（dtype） 描述在数组中的固定大小值的格子。<br>一个表示数组形状的元组，表示各维度大小的元组。<br>一个跨度元组，里边有一个整数指的是为了前进到当前维度下一个元素需要跨过的字节数。</p>
 <h3 id="创建方法是啥？"><a href="#创建方法是啥？" class="headerlink" title="创建方法是啥？"></a><strong>创建方法是啥</strong>？</h3><p>用Numpy里的array函数   </p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">numpy.array(object, dtype = <span class="literal">None</span>, copy = <span class="literal">True</span>, order = <span class="literal">None</span>, subok = <span class="literal">False</span>, ndmin = <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-<pre><code>&gt;参数说明
+<pre><code>参数说明
 名称             描述  
 * object    数组或嵌套的数列  
 * dtype           数组元素的数据类型(可选) 可以是复数，可以是结构体名  
@@ -14,7 +14,7 @@
 * order        创建数组的样式，C 为行方向，F 为列方向，A 为任意方向（默认）  
 * subok        默认返回一个与基类类型一致的数组
 * ndmin        指定生成数组的最小维度</code></pre><h1 id="二-NumPy-数据类型"><a href="#二-NumPy-数据类型" class="headerlink" title="二.NumPy 数据类型"></a>二.NumPy 数据类型</h1><p>包含的数据类型非常多  </p>
-<pre><code>&gt;名称        描述  
+<pre><code>名称        描述  
 * bool_        布尔型数据类型（True 或者 False）  
 * int_        默认的整数类型（类似于 C 语言中的 * long，int32 或 int64）  
 * intc        与 C 的 int 类型一样，一般是 int32 或 int 64  
@@ -38,7 +38,7 @@
 <pre><code>object - 要转换为的数据类型对象
 align - 如果为 true，填充字段使其类似 C 的结构体。
 copy - 复制 dtype 对象 ，如果为 false，则是对内置数据类型对象的引用</code></pre><p>其中每个内建类型都有一个唯一定义它的<strong>字符代码</strong>，如下：</p>
-<pre><code>&gt;字符    对应类型  
+<pre><code>字符    对应类型  
 b        布尔型  
 i        (有符号) 整型  
 u        无符号整型 integer  
