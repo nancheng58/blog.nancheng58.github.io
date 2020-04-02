@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>分类算法</title>
+      <link href="/2020/04/02/Classification/"/>
+      <url>/2020/04/02/Classification/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>之前记录在OneNote上的，无法直接转成MD，现整理成pdf文档，发布在这里。</p><center>**分类算法**</center><br><div class="row">    <embed src="/pdf/分类算法.pdf" width="100%" height="550" type="application/pdf"></div> <br>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Numpy学习笔记</title>
       <link href="/2020/03/30/Numpy/"/>
       <url>/2020/03/30/Numpy/</url>
@@ -13,7 +38,7 @@
       
       <categories>
           
-          <category> nancheng58的学习笔记 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       

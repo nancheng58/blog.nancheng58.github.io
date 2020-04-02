@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nancheng58.github.io/2020/04/02/Classification/</loc>
+    
+    <lastmod>2020-04-02T13:03:11.286Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://nancheng58.github.io/2020/03/30/Numpy/</loc>
+    
+    <lastmod>2020-04-02T12:36:58.400Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://nancheng58.github.io/about/site.html</loc>
     
     <lastmod>2020-03-31T03:18:10.239Z</lastmod>
@@ -19,13 +33,6 @@
     <loc>http://nancheng58.github.io/tags/index.html</loc>
     
     <lastmod>2020-03-31T02:34:35.614Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nancheng58.github.io/2020/03/30/Numpy/</loc>
-    
-    <lastmod>2020-03-31T02:11:25.856Z</lastmod>
     
   </url>
   
