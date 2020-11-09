@@ -1,0 +1,116 @@
+avatar:
+  url: /images/nancheng58.jpg
+# Social Links.
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=1440770097&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/nancheng58
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:nancheng58@qq.coms
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/5568240132
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 知乎
+    link: https://www.zhihu.com/people/nancheng58
+    icon: icon-zhihu-line
+    color: "#0084FF"
+
+favicon: /nancheng58.ico
+
+pages:
+symbols_count_time:
+  item_text_post: true
+  item_text_total: true
+  awl: 2
+  wpm: 250
+# Google Adsense
+google_adsense:
+  enable: true
+  client: ca-pub-4012622520451379
+# archive
+archive:
+  last_word: 真的没有了qwq
+banner:
+  enable: false
+  title: Nancheng58的小站
+  src: /js/ui/banner.js
+
+# math fomula
+# https://katex.org/
+katex:
+  copy_tex: true
+  global: false
+pdf:
+  enable: true
+  # Default height
+  height: 500px
+  pdfobject:
+    # Use 2.1.1 as default, jsdelivr as default CDN, works everywhere even in China
+    cdn: //cdn.jsdelivr.net/npm/pdfobject@2.1.1/pdfobject.min.js
+    # CDNJS, provided by cloudflare, maybe the best CDN, but not works in China
+    #cdn: //cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js
+# Post edit
+# Dependencies: https://github.com/hexojs/hexo-deployer-git
+post_edit:
+  enable: true
+  url: https://github.com/nancheng58/nancheng58.github.io/tree/master/ # Link for view source.
+  live_time:
+    enable: true
+    prefix: 本博客已藏在角落里运行了
+    suffix: qwq
+    start_time: "2020-03-30T15:00:00"
+engine_search:
+  enable: true
+  href: "https://www.google.com/search?q=site:"
+  domain: nancheng58.github.io
+
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+comment:
+  enable: true
+  tips:
+    - 若您无 GitHub 账号，可直接在下方匿名评论。
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 下述comment采用了Valine，头像为邮箱相应的Gravatar头像。
+# GitHub Issues Link Button
+# https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
+github_issues:
+  enable: true
+  username: nancheng58
+  repository: nancheng58.github.io
+  filters: is:issue
+
+# Valine
+# You can get your appid and appkey from https://leancloud.cn
+# More info available at https://valine.js.org
+valine:
+  enable: true
+  appId: e3Wa6LhtFFdduumz2fBhLAbc-gzGzoHsz
+  appKey: IIJKcti6fn7oOEeiqV02gpHA
+  serverURLs:
+  # another choice: https://github.com/DesertsP/Valine-Admin
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 友善的评论是交流的起点... # comment box placeholder
+  avatar: # gravatar style
+  meta: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+  visitor: true
