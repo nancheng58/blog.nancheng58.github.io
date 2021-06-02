@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nancheng58.github.io/about/index.html</loc>
+    
+    <lastmod>2021-06-02T14:40:36.258Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://nancheng58.github.io/tags/index.html</loc>
     
     <lastmod>2020-11-09T02:39:56.013Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://nancheng58.github.io/categories/index.html</loc>
     
     <lastmod>2020-11-09T02:39:56.002Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://nancheng58.github.io/about/index.html</loc>
-    
-    <lastmod>2020-11-09T02:39:56.001Z</lastmod>
     
   </url>
   
